@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
   <diagram name="Page-1" id="YEPq0QoHDC58UsUPWpZ2">
-    <mxGraphModel dx="3455" dy="2665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2725" dy="1883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -946,7 +946,7 @@
             <mxPoint x="1230" y="1700" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QHTiQXVM_fQRAgO0C6-C-330" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Redis Cache:&lt;div&gt;For like/comment counts etc.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="QHTiQXVM_fQRAgO0C6-C-330" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Redis:&lt;div&gt;For like/comment counts etc.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="180" x="993.2" y="1734" as="geometry" />
         </mxCell>
         <mxCell id="QHTiQXVM_fQRAgO0C6-C-331" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;LIVE STREAM SERVICE&lt;/font&gt;&lt;/b&gt;" vertex="1">
@@ -1132,18 +1132,18 @@
             <mxPoint x="1120" y="2450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QHTiQXVM_fQRAgO0C6-C-420" edge="1" parent="1" source="QHTiQXVM_fQRAgO0C6-C-367" style="endArrow=classic;html=1;rounded=0;entryX=0.506;entryY=0.923;entryDx=0;entryDy=0;entryPerimeter=0;" target="QHTiQXVM_fQRAgO0C6-C-212" value="">
+        <mxCell id="QHTiQXVM_fQRAgO0C6-C-420" edge="1" parent="1" source="zUIeAgt7Gqv6rTVxVMJm-1" style="endArrow=classic;html=1;rounded=0;entryX=0.506;entryY=0.923;entryDx=0;entryDy=0;entryPerimeter=0;" target="QHTiQXVM_fQRAgO0C6-C-212" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <Array as="points">
-              <mxPoint x="1950" y="2290" />
-              <mxPoint x="1830" y="1820" />
-            </Array>
+            <Array as="points" />
             <mxPoint x="1350" y="2200" as="sourcePoint" />
             <mxPoint x="1570" y="1780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QHTiQXVM_fQRAgO0C6-C-421" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" target="QHTiQXVM_fQRAgO0C6-C-213" value="">
+        <mxCell id="QHTiQXVM_fQRAgO0C6-C-421" edge="1" parent="1" source="zUIeAgt7Gqv6rTVxVMJm-1" style="endArrow=classic;html=1;rounded=0;exitX=0.571;exitY=-0.036;exitDx=0;exitDy=0;exitPerimeter=0;" target="QHTiQXVM_fQRAgO0C6-C-213" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1836" y="1770" />
+            </Array>
             <mxPoint x="1820" y="1820" as="sourcePoint" />
             <mxPoint x="1470" y="1820" as="targetPoint" />
           </mxGeometry>
@@ -1153,6 +1153,21 @@
         </mxCell>
         <mxCell id="QHTiQXVM_fQRAgO0C6-C-423" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.network_load_balancer;" value="" vertex="1">
           <mxGeometry height="110" width="110" x="265" y="2023" as="geometry" />
+        </mxCell>
+        <mxCell id="zUIeAgt7Gqv6rTVxVMJm-1" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.redis_kvstore;" value="" vertex="1">
+          <mxGeometry height="41.4" width="52.5" x="1810" y="2270" as="geometry" />
+        </mxCell>
+        <mxCell id="zUIeAgt7Gqv6rTVxVMJm-3" edge="1" parent="1" source="QHTiQXVM_fQRAgO0C6-C-367" style="endArrow=classic;html=1;rounded=0;entryX=0.095;entryY=0.713;entryDx=0;entryDy=0;entryPerimeter=0;" target="zUIeAgt7Gqv6rTVxVMJm-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1030" y="2250" as="sourcePoint" />
+            <mxPoint x="1080" y="2200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zUIeAgt7Gqv6rTVxVMJm-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Redis:&lt;div&gt;For like/comment counts etc.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="180" x="1760" y="2311.4" as="geometry" />
+        </mxCell>
+        <mxCell id="zUIeAgt7Gqv6rTVxVMJm-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CHUNKER SERVICE&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="1153.2" y="2023" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
