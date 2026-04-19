@@ -1,0 +1,377 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.3.0 Chrome/140.0.7339.249 Electron/38.7.2 Safari/537.36" version="29.3.0">
+  <diagram name="HLD-Ticket-Booking" id="TBS-HLD-2025-redesign">
+    <mxGraphModel dx="2403" dy="1815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1500" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TBS-SCHEMA" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;li&gt;&lt;p data-path-to-node=&quot;11,0,0&quot;&gt;&lt;b data-path-to-node=&quot;11,0,0&quot; data-index-in-node=&quot;0&quot;&gt;5. Database Schema:&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;&lt;span data-path-to-node=&quot;11,0,0&quot; data-index-in-node=&quot;0&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;ol style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;&lt;span data-path-to-node=&quot;11,0,0&quot; data-index-in-node=&quot;0&quot; style=&quot;font-weight: bold; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;User:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;code data-path-to-node=&quot;11,0,0&quot; data-index-in-node=&quot;6&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, &lt;/span&gt;&lt;code data-path-to-node=&quot;11,0,0&quot; data-index-in-node=&quot;10&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;name&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, &lt;/span&gt;&lt;code data-path-to-node=&quot;11,0,0&quot; data-index-in-node=&quot;16&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;email&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, &lt;/span&gt;&lt;code data-path-to-node=&quot;11,0,0&quot; data-index-in-node=&quot;23&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;phone&lt;/code&gt;&lt;/li&gt;&lt;li style=&quot;font-weight: bold;&quot;&gt;&lt;b data-path-to-node=&quot;11,1,0&quot; data-index-in-node=&quot;0&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Event:&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;code data-path-to-node=&quot;11,1,0&quot; data-index-in-node=&quot;7&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;id&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;, &lt;/span&gt;&lt;code data-path-to-node=&quot;11,1,0&quot; data-index-in-node=&quot;11&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;title&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;, &lt;/span&gt;&lt;code data-path-to-node=&quot;11,1,0&quot; data-index-in-node=&quot;18&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;description&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;, &lt;/span&gt;&lt;code data-path-to-node=&quot;11,1,0&quot; data-index-in-node=&quot;31&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;cast&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;, &lt;/span&gt;&lt;code data-path-to-node=&quot;11,1,0&quot; data-index-in-node=&quot;37&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;duration&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;, &lt;/span&gt;&lt;code data-path-to-node=&quot;11,1,0&quot; data-index-in-node=&quot;47&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;language&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;, &lt;/span&gt;&lt;code data-path-to-node=&quot;11,1,0&quot; data-index-in-node=&quot;57&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;rating&lt;/code&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;font-weight: bold;&quot;&gt;&lt;b data-path-to-node=&quot;11,2,0&quot; data-index-in-node=&quot;0&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Venue:&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;code data-path-to-node=&quot;11,2,0&quot; data-index-in-node=&quot;7&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;id&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;, &lt;/span&gt;&lt;code data-path-to-node=&quot;11,2,0&quot; data-index-in-node=&quot;11&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;name&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;, &lt;/span&gt;&lt;code data-path-to-node=&quot;11,2,0&quot; data-index-in-node=&quot;17&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;city&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;, &lt;/span&gt;&lt;code data-path-to-node=&quot;11,2,0&quot; data-index-in-node=&quot;23&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;address&lt;/code&gt;&lt;/li&gt;&lt;li style=&quot;font-weight: bold;&quot;&gt;&lt;b data-path-to-node=&quot;11,3,0&quot; data-index-in-node=&quot;0&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Show:&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;code data-path-to-node=&quot;11,3,0&quot; data-index-in-node=&quot;6&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;id&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;, &lt;/span&gt;&lt;code data-path-to-node=&quot;11,3,0&quot; data-index-in-node=&quot;10&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;event_id&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;, &lt;/span&gt;&lt;code data-path-to-node=&quot;11,3,0&quot; data-index-in-node=&quot;20&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;venue_id&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;, &lt;/span&gt;&lt;code data-path-to-node=&quot;11,3,0&quot; data-index-in-node=&quot;30&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;start_time&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;, &lt;/span&gt;&lt;code data-path-to-node=&quot;11,3,0&quot; data-index-in-node=&quot;42&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;end_time&lt;/code&gt;&lt;/li&gt;&lt;li style=&quot;&quot;&gt;&lt;b data-path-to-node=&quot;11,4,0&quot; data-index-in-node=&quot;0&quot; style=&quot;font-weight: bold; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Seat:&lt;/b&gt;&lt;span style=&quot;font-weight: normal; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;code data-path-to-node=&quot;11,4,0&quot; data-index-in-node=&quot;6&quot; style=&quot;font-weight: normal; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id&lt;/code&gt;&lt;span style=&quot;font-weight: normal; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, &lt;/span&gt;&lt;code data-path-to-node=&quot;11,4,0&quot; data-index-in-node=&quot;10&quot; style=&quot;font-weight: normal; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;venue_id&lt;/code&gt;&lt;span style=&quot;font-weight: normal; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, &lt;/span&gt;&lt;code data-path-to-node=&quot;11,4,0&quot; data-index-in-node=&quot;20&quot; style=&quot;font-weight: normal; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;row_label&lt;/code&gt;&lt;span style=&quot;font-weight: normal; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, &lt;/span&gt;&lt;code data-path-to-node=&quot;11,4,0&quot; data-index-in-node=&quot;31&quot; style=&quot;font-weight: normal; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;seat_number&lt;/code&gt;&lt;span style=&quot;font-weight: normal; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, &lt;/span&gt;&lt;code data-path-to-node=&quot;11,4,0&quot; data-index-in-node=&quot;44&quot; style=&quot;font-weight: normal; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;type, &lt;/code&gt;&lt;code data-path-to-node=&quot;11,4,0&quot; data-index-in-node=&quot;44&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;status&lt;/b&gt;&lt;/code&gt;&lt;code data-path-to-node=&quot;11,4,0&quot; data-index-in-node=&quot;44&quot; style=&quot;font-weight: normal; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; (available/locked/booked)&lt;/code&gt;&lt;/li&gt;&lt;li style=&quot;font-weight: bold;&quot;&gt;&lt;b data-path-to-node=&quot;11,6,0&quot; data-index-in-node=&quot;0&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Booking:&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;code data-path-to-node=&quot;11,6,0&quot; data-index-in-node=&quot;9&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;id&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;, &lt;/span&gt;&lt;code data-path-to-node=&quot;11,6,0&quot; data-index-in-node=&quot;13&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;user_id&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;, &lt;/span&gt;&lt;code data-path-to-node=&quot;11,6,0&quot; data-index-in-node=&quot;22&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;show_id&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;, &lt;/span&gt;&lt;code data-path-to-node=&quot;11,6,0&quot; data-index-in-node=&quot;31&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;total_amount&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;, &lt;/span&gt;&lt;code data-path-to-node=&quot;11,6,0&quot; data-index-in-node=&quot;45&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;status&lt;/code&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;, &lt;/span&gt;&lt;code data-path-to-node=&quot;11,6,0&quot; data-index-in-node=&quot;53&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;timestamp&lt;/code&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="180" width="660" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-REQ" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;br&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. Functional Requirements&lt;/b&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;The user must be able to discover events using filters such as the Event Title, the City/Location, and the specific Date of the show.&lt;/li&gt;&lt;li&gt;The system must allow a user to select a seat and complete a transaction to Book a Ticket.&lt;/li&gt;&lt;li&gt;The user &lt;font face=&quot;Helvetica&quot;&gt;must &lt;/font&gt;be able to view comprehensive details for a specific event, including the No of Seats (available vs. occupied), a detailed Description, and Metadata (cast, duration, language, ratings&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;b&gt;2. Non-Functional Requirements&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;The system must be designed to support 100 Million Daily Active Users (DAU)&lt;/li&gt;&lt;li&gt;When users are searching or viewing an event, the system must prioritize being &quot;always online&quot; (High Availability). It is better to show slightly older data than to show an error page.&lt;/li&gt;&lt;li&gt;When a user is booking a specific ticket, the system must be Highly Consistent. Two people should never be able to book the exact same seat at the exact same time.&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;b&gt;3. Core Entities&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ol&gt;&lt;li&gt;User&lt;/li&gt;&lt;li&gt;Event (Movie, Concert, Play)&lt;/li&gt;&lt;li&gt;Venue (Theater, Stadium, Arena)&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Show (Specific timing of an event at a venue)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Seat&lt;/li&gt;&lt;li&gt;Booking (Transaction record)&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;&lt;b&gt;4. API Design&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: bold; white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1.&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;GET /v1/events&amp;nbsp; &amp;nbsp; &amp;nbsp; (&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Query Params: title, city, date&lt;/span&gt;&lt;code data-path-to-node=&quot;7,0,1,0,0&quot; data-index-in-node=&quot;27&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code data-path-to-node=&quot;7,0,1,0,0&quot; data-index-in-node=&quot;27&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;--&amp;nbsp;&lt;span data-path-to-node=&quot;7,0,1,1,0&quot; data-index-in-node=&quot;0&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Returns a list of matching events.&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code data-path-to-node=&quot;7,0,1,0,0&quot; data-index-in-node=&quot;27&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span data-path-to-node=&quot;7,0,1,1,0&quot; data-index-in-node=&quot;0&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2.&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;GET /v1/events/{event_id}&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;--&amp;nbsp;&lt;/span&gt;&lt;span data-path-to-node=&quot;7,1,1,0,0&quot; data-index-in-node=&quot;0&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Returns detailed metadata and description for a specific event.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span data-path-to-node=&quot;7,1,1,0,0&quot; data-index-in-node=&quot;0&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span data-path-to-node=&quot;7,1,1,0,0&quot; data-index-in-node=&quot;0&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;3.&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;GET /v1/shows/{show_id}/seats&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span data-path-to-node=&quot;7,1,1,0,0&quot; data-index-in-node=&quot;0&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;--&amp;nbsp;&lt;/span&gt;&lt;span data-path-to-node=&quot;7,2,1,0,0&quot; data-index-in-node=&quot;0&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Returns the seat map and current availability status for a specific show.&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span data-path-to-node=&quot;7,1,1,0,0&quot; data-index-in-node=&quot;0&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span data-path-to-node=&quot;7,2,1,0,0&quot; data-index-in-node=&quot;0&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span data-path-to-node=&quot;7,1,1,0,0&quot; data-index-in-node=&quot;0&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span data-path-to-node=&quot;7,2,1,0,0&quot; data-index-in-node=&quot;0&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;4.&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span data-path-to-node=&quot;7,1,1,0,0&quot; data-index-in-node=&quot;0&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span data-path-to-node=&quot;7,2,1,0,0&quot; data-index-in-node=&quot;0&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;POST /v1/bookings&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span data-path-to-node=&quot;7,1,1,0,0&quot; data-index-in-node=&quot;0&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span data-path-to-node=&quot;7,2,1,0,0&quot; data-index-in-node=&quot;0&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;(BODY: event, show and seat)&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Headers:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Idempotency-Key: &amp;lt;unique_key&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;span data-path-to-node=&quot;7,1,1,0,0&quot; data-index-in-node=&quot;0&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span data-path-to-node=&quot;7,2,1,0,0&quot; data-index-in-node=&quot;0&quot; style=&quot;font-style: italic; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;font-style: normal;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;--&amp;nbsp;&lt;/span&gt;&lt;span data-path-to-node=&quot;7,3,1,1,0&quot; data-index-in-node=&quot;0&quot; style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Locks the selected seats and initiates the booking transaction.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="630" width="490" x="20" y="-600" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-USERS" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.users;" value="Users" vertex="1">
+          <mxGeometry height="60" width="60" x="-350" y="765" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-EVTORG" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.users;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="-470" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-58" edge="1" parent="1" source="TBS-APIGW-BOX" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="TBS-CAT-SVC">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-80" y="1035" />
+              <mxPoint x="-80" y="1093" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TBS-APIGW-BOX" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#F9A825;" value="" vertex="1">
+          <mxGeometry height="300" width="230" x="-250" y="735" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-62" edge="1" parent="1" source="TBS-APIGW-TEXT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" target="TBS-PAY-SVC">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="1230" />
+              <mxPoint x="255" y="1230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-63" edge="1" parent="1" source="TBS-APIGW-TEXT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="TBS-BOOK-SVC">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-APIGW-TEXT" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;color: rgb(255, 255, 255); font-size: 16px;&quot;&gt;API Gateway&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 255, 255); font-size: 16px;&quot;&gt;Load Balancer&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 255, 255); font-size: 16px;&quot;&gt;&lt;b&gt;Authentication&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 255, 255); font-size: 16px;&quot;&gt;Routing&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(255, 255, 255); font-size: 16px;&quot;&gt;Rate Limiting&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="165" width="230" x="-250" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-SRCH-LABEL" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Search Service" vertex="1">
+          <mxGeometry height="30" width="100" x="88.07" y="645" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-25" edge="1" parent="1" source="TBS-EVT-SVC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="TBS-REDIS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-EVT-SVC" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#d79b00;" value="&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 16px;&quot;&gt;&lt;b&gt;Event Service&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="55" width="158.08" x="71.92" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-70" edge="1" parent="1" source="TBS-BOOK-SVC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="amVHIB0Ouv4xgJJmLbbU-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-BOOK-SVC" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 16px;&quot;&gt;&lt;b&gt;Booking Service&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="55" width="176.93" x="173.07" y="1094" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-CAT-SVC" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Content Management Service&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;(Event Details)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="190" x="-280" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-USERDB" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" value="" vertex="1">
+          <mxGeometry height="64" width="48" x="485.06999999999994" y="431" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-REDIS" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" value="" vertex="1">
+          <mxGeometry height="42" width="50" x="395" y="885" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-REDIS-TXT" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Event Cache&lt;div&gt;(Redis)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="368" y="925" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-PG-PRI" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" value="" vertex="1">
+          <mxGeometry height="64" width="48" x="400" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-BOOK-DB-TXT" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Events DB&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="95" x="378.07" y="1054" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-37" edge="1" parent="1" source="TBS-CDC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TBS-CDC" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" value="&lt;b&gt;Change Data&lt;br&gt;Capture (CDC)&lt;br&gt;Pipeline&lt;/b&gt;" vertex="1">
+          <mxGeometry height="75" width="80" x="600" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-REP-BOX" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="100" width="215" x="519" y="785" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-REP1" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" value="" vertex="1">
+          <mxGeometry height="64" width="48" x="540" y="798" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-REP2" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" value="" vertex="1">
+          <mxGeometry height="64" width="48" x="602" y="798" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-REP3" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" value="" vertex="1">
+          <mxGeometry height="64" width="48" x="660" y="798" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-ELASTIC" parent="1" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.elasticsearch_service;" value="" vertex="1">
+          <mxGeometry height="70" width="70" x="403.07" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-ELASTIC-TXT" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Amazon OpenSearch&lt;li data-section-id=&quot;1wtnazp&quot; data-start=&quot;1087&quot; data-end=&quot;1107&quot;&gt;Full-text search&lt;br&gt;&lt;/li&gt;&lt;li data-section-id=&quot;1wtnazp&quot; data-start=&quot;1087&quot; data-end=&quot;1107&quot;&gt;Amazon Elastic Search&lt;/li&gt;&lt;li data-section-id=&quot;1ate14&quot; data-start=&quot;1108&quot; data-end=&quot;1126&quot;&gt;Fast filtering&lt;/li&gt;&lt;li data-section-id=&quot;pp5yra&quot; data-start=&quot;1127&quot; data-end=&quot;1139&quot;&gt;Indexing&lt;/li&gt;" vertex="1">
+          <mxGeometry height="90" width="150" x="490" y="595" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-PAY-SVC" parent="1" style="html=1;whiteSpace=wrap;strokeColor=none;fillColor=#0079D6;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;align=center;fontSize=12;outlineConnect=0;spacingTop=-6;fontColor=#FFFFFF;sketch=0;shape=mxgraph.sitemap.payment;" value="Payment" vertex="1">
+          <mxGeometry height="70" width="117.93" x="196.07" y="1275" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-PAY-SVC-TXT" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Payment Service" vertex="1">
+          <mxGeometry height="30" width="130" x="188.07" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-48" edge="1" parent="1" source="TBS-PAY-GW" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="TBS-3RD-PARTY">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-PAY-GW" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.api_gateway;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="29.5" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-PAY-GW-TXT" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Payment&lt;div&gt;Gateway&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="82" x="18" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-3RD-PARTY" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;Third Party Payment Providers&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="145" x="-166.93000000000012" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-51" edge="1" parent="1" source="TBS-KAFKA-BOX" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TBS-NOTIF-SVC">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-52" edge="1" parent="1" source="TBS-KAFKA-BOX" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="TBS-BOOK-CONSUMER">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-KAFKA-BOX" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="94" width="146.93" x="194.07" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-KAFKA" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.kafka;" value="" vertex="1">
+          <mxGeometry height="42" width="57" x="236" y="1451" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-KAFKA-TXT" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Apache Kafka" vertex="1">
+          <mxGeometry height="30" width="70" x="229.07" y="1493" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-73" edge="1" parent="1" source="TBS-BOOK-CONSUMER" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="amVHIB0Ouv4xgJJmLbbU-65">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="1540" />
+              <mxPoint x="830" y="1180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TBS-BOOK-CONSUMER" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;Release Lock&amp;nbsp;&lt;br&gt;And also Booking status&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="145" x="540" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-NOTIF-SVC" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 16px;&quot;&gt;&lt;b&gt;Notification Service&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="185" x="510" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-SEAT-LOCK-TXT" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;1. Seats Selection&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;2. Lock with TTL (5 minutes)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;3. Payment procedure&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="231.93" x="258.07" y="1185" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-SUCCESS-TXT" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Success / Failure" vertex="1">
+          <mxGeometry height="30" width="75" x="310.07" y="1292" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-BOOKING-EVT-TXT" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Booking&amp;nbsp;&lt;div&gt;Success / Failure&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="209.07" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="TBS-E1" edge="1" parent="1" source="TBS-USERS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.27;entryDx=0;entryDy=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-250" y="795" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TBS-E3" edge="1" parent="1" source="TBS-APIGW-BOX" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-18" y="748" />
+              <mxPoint x="-18" y="621" />
+            </Array>
+            <mxPoint x="110" y="621.0000000000005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TBS-E6" edge="1" parent="1" source="TBS-APIGW-BOX" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TBS-EVT-SVC">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;b style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Ticket Booking System&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="240" x="160" y="-640" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-3" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.vpc_nat_gateway;fillColor=#F58536;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="102" width="100" x="-190" y="779" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-5" edge="1" parent="1" source="amVHIB0Ouv4xgJJmLbbU-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="443.06999999999994" y="463" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-6" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/User_Resource.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="48" x="167.57" y="438" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-7" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="User Service" vertex="1">
+          <mxGeometry height="30" width="90" x="153.07" y="498" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-8" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="463.06999999999994" y="490" />
+              <mxPoint x="346.06999999999994" y="490" />
+              <mxPoint x="346.06999999999994" y="491" />
+            </Array>
+            <mxPoint x="463.06999999999994" y="478.5" as="sourcePoint" />
+            <mxPoint x="228.07" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-10" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="User Database" vertex="1">
+          <mxGeometry height="30" width="100" x="452.06999999999994" y="498" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-11" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="MySQL" vertex="1">
+          <mxGeometry height="30" width="60" x="473.06999999999994" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-12" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="Login Request" vertex="1">
+          <mxGeometry height="30" width="100" x="-36.92999999999995" y="438" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-13" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="User name &amp;amp; Password Verification" vertex="1">
+          <mxGeometry height="30" width="210" x="238.07" y="488" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-14" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="In Response: JWT" vertex="1">
+          <mxGeometry height="30" width="120" x="-48.07999999999993" y="478" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-15" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="This JWT will be used as a access token&lt;br&gt;to use the mentioned service" vertex="1">
+          <mxGeometry height="40" width="240" x="-110" y="498" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-16" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="1" vertex="1">
+          <mxGeometry height="30" width="30" x="-51.92999999999995" y="438" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-17" parent="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" value="- Name&lt;br&gt;- Email&lt;br&gt;- Password&lt;br&gt;- Phone Numbe&lt;br&gt;- Address" vertex="1">
+          <mxGeometry height="90" width="110" x="540" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-18" edge="1" parent="1" source="TBS-APIGW-BOX" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.016;entryY=0.627;entryDx=0;entryDy=0;entryPerimeter=0;" target="amVHIB0Ouv4xgJJmLbbU-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-19" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.looking_glass;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="123.07" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="CDN: for&amp;nbsp;&lt;div&gt;static files&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="80" x="303.07" y="742.3" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-21" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.cdn_content_distribution_network;" value="" vertex="1">
+          <mxGeometry height="42.3" width="51" x="317" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-22" edge="1" parent="1" source="amVHIB0Ouv4xgJJmLbbU-19" style="endArrow=classic;html=1;rounded=0;exitX=0.913;exitY=0.561;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.255;entryY=0.473;entryDx=0;entryDy=0;entryPerimeter=0;" target="amVHIB0Ouv4xgJJmLbbU-21" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="622" />
+              <mxPoint x="240" y="720" />
+            </Array>
+            <mxPoint x="310" y="760" as="sourcePoint" />
+            <mxPoint x="360" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-23" edge="1" parent="1" source="TBS-EVT-SVC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=-0.014;entryY=0.782;entryDx=0;entryDy=0;entryPerimeter=0;" target="amVHIB0Ouv4xgJJmLbbU-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-24" edge="1" parent="1" source="amVHIB0Ouv4xgJJmLbbU-19" style="endArrow=classic;html=1;rounded=0;exitX=0.767;exitY=0.197;exitDx=0;exitDy=0;exitPerimeter=0;" target="TBS-ELASTIC" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="610" />
+              <mxPoint x="290" y="610" />
+              <mxPoint x="330" y="640" />
+            </Array>
+            <mxPoint x="230" y="770" as="sourcePoint" />
+            <mxPoint x="280" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-26" edge="1" parent="1" source="TBS-EVT-SVC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.004;entryY=0.143;entryDx=0;entryDy=0;entryPerimeter=0;" target="TBS-REP-BOX">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="840" />
+              <mxPoint x="375" y="840" />
+              <mxPoint x="375" y="799" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="In case of&amp;nbsp;&lt;div&gt;cache miss&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="80" x="403.07" y="765" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-30" edge="1" parent="1" source="TBS-REP-BOX" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.796;entryY=0.089;entryDx=0;entryDy=0;entryPerimeter=0;" target="TBS-REDIS">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Also update&lt;div&gt;&amp;nbsp;in cache&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="90" x="400" y="805" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Replicas: Reduce&amp;nbsp;&lt;div&gt;read operations&amp;nbsp;&lt;/div&gt;&lt;div&gt;load on main DB&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="881" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-35" edge="1" parent="1" source="TBS-PG-PRI" style="endArrow=classic;html=1;rounded=0;entryX=0.061;entryY=0.629;entryDx=0;entryDy=0;exitX=0.953;exitY=0.685;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="TBS-CDC" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="1120" as="sourcePoint" />
+            <mxPoint x="400" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="watches and Updates&amp;nbsp;&lt;div&gt;any change that&amp;nbsp;&lt;/div&gt;&lt;div&gt;occurs in main db&lt;br&gt;i.e. new event is added and some changes&amp;nbsp;&lt;/div&gt;&lt;div&gt;made to existing ones&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="250" x="685" y="982.5" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Event Hosts and Organizers" vertex="1">
+          <mxGeometry height="30" width="170" x="-530" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-42" edge="1" parent="1" source="TBS-ELASTIC" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="TBS-REP-BOX" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="438" y="740" />
+              <mxPoint x="573" y="740" />
+            </Array>
+            <mxPoint x="200" y="990" as="sourcePoint" />
+            <mxPoint x="250" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Checks for a particular&amp;nbsp;&lt;div&gt;show and it&#39;s&amp;nbsp;&lt;/div&gt;&lt;div&gt;seats and detaisl&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="218" y="862" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-49" edge="1" parent="1" source="amVHIB0Ouv4xgJJmLbbU-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="TBS-KAFKA-BOX">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="130" width="350" x="-226.93" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-47" edge="1" parent="1" source="TBS-PAY-SVC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.8;entryY=0.154;entryDx=0;entryDy=0;entryPerimeter=0;" target="amVHIB0Ouv4xgJJmLbbU-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-50" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="IOS: APNS&lt;br&gt;Andriod: FCM" vertex="1">
+          <mxGeometry height="40" width="100" x="700" y="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Producer Consumer&lt;div&gt;&amp;nbsp;Architecture&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="130" x="202.54" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-56" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="120" width="520" x="-600" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-57" edge="1" parent="1" source="TBS-EVTORG" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="TBS-APIGW-TEXT" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-430" y="990" />
+            </Array>
+            <mxPoint x="-110" y="1210" as="sourcePoint" />
+            <mxPoint x="-60" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;CONTENT MANAGEMENT&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="270" x="-436.93" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-64" edge="1" parent="1" source="amVHIB0Ouv4xgJJmLbbU-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.005;entryY=0.396;entryDx=0;entryDy=0;entryPerimeter=0;" target="TBS-PG-PRI">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-50" y="1180" />
+              <mxPoint x="-50" y="1070" />
+              <mxPoint x="185" y="1070" />
+              <mxPoint x="185" y="1015" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-65" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/databases/Azure_Database_PostgreSQL_Server.svg;" value="" vertex="1">
+          <mxGeometry height="64" width="48" x="700" y="1148" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-66" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Bookings DB&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="669" y="1212" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-68" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" value="" vertex="1">
+          <mxGeometry height="42" width="50" x="520" y="1143" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Redis" vertex="1">
+          <mxGeometry height="30" width="50" x="520" y="1185" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-72" edge="1" parent="1" source="amVHIB0Ouv4xgJJmLbbU-65" style="endArrow=classic;html=1;rounded=0;entryX=1.017;entryY=0.543;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.049;exitY=0.387;exitDx=0;exitDy=0;exitPerimeter=0;" target="amVHIB0Ouv4xgJJmLbbU-68" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="510" y="1290" as="sourcePoint" />
+            <mxPoint x="560" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-74" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;code data-path-to-node=&quot;11,6,0&quot; data-index-in-node=&quot;9&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left; background-color: transparent;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;book_id&lt;/font&gt;&lt;/code&gt;&lt;div&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;code data-path-to-node=&quot;11,6,0&quot; data-index-in-node=&quot;13&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left; background-color: transparent;&quot;&gt;user_id&lt;/code&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left; background-color: transparent;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;code data-path-to-node=&quot;11,6,0&quot; data-index-in-node=&quot;22&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left; background-color: transparent;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;show_id&lt;/font&gt;&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code data-path-to-node=&quot;11,6,0&quot; data-index-in-node=&quot;31&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left; background-color: transparent;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;total_amount&lt;/font&gt;&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code data-path-to-node=&quot;11,6,0&quot; data-index-in-node=&quot;45&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left; background-color: transparent;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;status&lt;/font&gt;&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code data-path-to-node=&quot;11,6,0&quot; data-index-in-node=&quot;53&quot; style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left; background-color: transparent;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;timestamp&lt;/font&gt;&lt;/code&gt;&lt;/div&gt;&lt;div&gt;&lt;code data-path-to-node=&quot;11,6,0&quot; data-index-in-node=&quot;53&quot; style=&quot;text-align: left; background-color: transparent;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(153, 51, 255));&quot;&gt;Idempotency_key (&lt;/font&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 51, 255));&quot;&gt;UNIQUE&lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(153, 51, 255));&quot;&gt;)&lt;/font&gt;&lt;/font&gt;&lt;/code&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="200" x="830" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="amVHIB0Ouv4xgJJmLbbU-75" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;If a user tries to book same again again, then it&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;checks in DB for idempotency key to&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ensure booking happens only once&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="360" x="880" y="1242" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
